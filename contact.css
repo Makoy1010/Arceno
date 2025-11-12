@@ -1,0 +1,112 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+      background: url('ra.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .title {
+      position: fixed;
+      top: 40px;
+      left: 60px;
+      color: #8b0000;
+      font-size: 46px;
+      font-weight: 900;
+      font-family: 'Georgia', serif;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+      z-index: 1000;
+  }
+  
+  .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      padding: 0 80px;
+      gap: 50px;
+  }
+  
+  .left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding-left: 60px;
+      margin-top: 80px;
+  }
+  
+  .profile {
+      margin-left: 55px;
+      margin-top: 40px;
+      width: 190px;
+      height: 190px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #8b0000;
+  }
+  
+  .right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .nav {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      margin-bottom: 25px;
+      margin-top: -60px;
+  }
+
+  .nav a {
+      text-decoration: none;
+      color: white;
+  }
+  
+  .nav button {
+      background-color: #7b0000;
+      color: #000;
+      border: none;
+      width: 230px;
+      padding: 16px 0;
+      font-family: 'Georgia', serif;
+      font-weight: bold;
+      font-size: 26px;
+      cursor: pointer;
+      text-align: center;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+      transition: all 0.3s ease;
+      border-radius: 6px;
+  }
+  
+  .nav button:hover {
+      background-color: #a00000;
+      color: #fff;
+  }
+  
+  .intro {
+      margin-top: 10px;
+      color: #000;
+      text-align: center;
+  }
+  
+  .intro p {
+      margin-bottom: 8px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      left: 32px;
+      font-size: 50px;
+      text-align: center;
+  }
+  
+
+  
+  
+  

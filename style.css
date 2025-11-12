@@ -13,7 +13,7 @@ body {
 .title {
     position: fixed;
     top: 40px;
-    left: 60px;s
+    left: 60px;
     color: #8b0000;
     font-size: 46px;
     font-weight: 900;
@@ -44,11 +44,11 @@ body {
 .profile {
     margin-left: 55px;
     margin-top: 40px;
-    width: 450px;   
-    height: 450px;  
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #8b0000;
+    border: 3px solid #8b0000;
 }
 
 .right {
@@ -65,6 +65,12 @@ body {
     margin-bottom: 25px;
     margin-top: -60px;
 }
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
 
 .nav button {
     background-color: #7b0000;
@@ -95,15 +101,9 @@ body {
 
 .intro p {
     margin-bottom: 8px;
-    font-size: 17px;
-}
-
-.quote {
-    font-family: 'Georgia', serif;
-    font-style: italic;
-    color: #000;
-    font-size: 15px;
-    line-height: 1.5;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 32px;
+    font-size: 50px;
     text-align: center;
 }
 
